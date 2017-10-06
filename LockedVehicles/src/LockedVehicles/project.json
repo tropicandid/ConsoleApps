@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0-*",
+    "description": "LockedVehicles Console Application",
+    "authors": [ "dsteers" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "Newtonsoft.Json": "10.0.3",
+        "Dapper": "1.50.2"
+    },
+
+    "commands": {
+        "LockedVehicles": "LockedVehicles"
+    },
+
+    "frameworks": {
+        "dnx451": {
+            "frameworkAssemblies": {
+                "System.Windows.Forms": "4.0.0.0",
+                "System.Data.Services.Client": "4.0.0.0",
+                "System.Data.SqlXml": "4.0.0.0",
+                "System.Data": "4.0.0.0"
+            }
+        }
+    }
+}
